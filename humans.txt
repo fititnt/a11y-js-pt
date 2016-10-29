@@ -1,0 +1,8 @@
+/* TEAM */
+    (Nome do time aqui no futuro)
+
+/* THANKS */
+    (Colaboradores conforme http://humanstxt.org/humans.txt no futuro)
+
+/* SITE */
+    Github: https://github.com/fititnt/a11y-js-pt
