@@ -1,17 +1,27 @@
-# Acessibilidade Web em aplicações com uso intenso de JavaScript - Português
+# Acessibilidade Web e JavaScript - Português
 
-Este repositório contém informações sobre acessibilidade Web para autores de aplicações com uso intenso de JavaScript.
+Este repositório contém informações exclusivamente em português sobre acessibilidade com foco para autores de HTML com uso intenso de JavaScript.
+Se destinam a aplicações acessadas em navegadores e deveriam, sem garantias, também se aplicar para uso de HTML em aplicatívos híbridos.
 
-Não há grupo de discussão sobre o tema neste momento.
+Em um mundo ideal, todos deveriam testar seus softwares com leitores de tela.
+Esse mundo não é uma realidade.
+Continuar insistindo nisso depois de meia década não vai mudar.
 
-Interessados podem entrar em contato com emerson@alligo.com.br.
+Este projeto assume que o desenvolvedor,
+mesmo sem ter experiência com leitores de tela ou conhecimentos _avançados_ de acessibilidade Web,
+irá desenvolver uma aplicação mais acessível encarando essa realidade.
+E para isto, reforça padrões de código que impactam muito além de usuários cegos e ferramentas de validação de erros durante o desenvolvimento.
 
+Colabore ao fazer parte do [Grupo de Pesquisa](#grupo-de-pesquisa).
+
+---
 
 * [Perguntas Frequentes](#perguntas-frequentes)
     * [1. Para ser considerado acessível, meu site precisa funcionar mesmo sem JavaScript habilitado?](#1-para-ser-considerado-acessível-meu-site-precisa-funcionar-mesmo-sem-javascript-habilitado)
     * [2. Como exibir conteúdo para leitores de tela e esconder dos demais?](#2-como-exibir-conteúdo-para-leitores-de-tela-e-esconder-dos-demais)
     * [3. Como ocultar conteúdo de leitores de tela?](#3-como-ocultar-conteúdo-de-leitores-de-tela)
     * [5. Por onde começo?](#5-por-onde-começo)
+* [Grupo de Pesquisa](#grupo-de-pesquisa)
 * [Autoria e Licença de uso](#autoria-e-licença-de-uso)
 
 
@@ -32,7 +42,7 @@ Porém é NÃO RECOMENDÁVEL usar CSS e JavaScript para criar visual e comportam
 
 NÃO PODE usar estilo CSS `display:none`. Isto oculta também para leitores de tela e mecanismos de busca.
 
-NÃO PODE usar estilo CSS `visibility: hidden;`. Isto oculta também para leitores de tela e mecanismos de busca.
+NÃO PODE usar estilo CSS `visibility: hidden`. Isto oculta também para leitores de tela e mecanismos de busca.
 
 Você PODE usaro seguinte CSS:
 
@@ -59,7 +69,7 @@ PODE usar estilo CSS `visibility: hidden;`. Note que isto esconde também de out
 Este uso não afeta demais agentes de usuário (isto é, os que não usam leitores de tela).
 Não há indícios de que isso afete intexação de mecanismos de busca.
 
-<!-- ### 4. Acessibilidade de Ícones -->
+### 4. Acessibilidade de Ícones
 
 ### 5. Por onde começo?
 Os seguintes materiais de alta qualidade, que foram revisados por grupos especializados no tema estão disponíveis em português:
@@ -68,6 +78,12 @@ Os seguintes materiais de alta qualidade, que foram revisados por grupos especia
 - [Criando Formulários Acessíveis](http://acessibilidade.pt.webiwg.org/webaim/tecnicas/formularios/)
 
 Outros materiais devem ser publicados em breve.
+
+## Grupo de Pesquisa
+
+Não há grupo de discussão sobre o tema neste momento.
+
+Interessados podem entrar em contato com emerson@alligo.com.br.
 
 ## Autoria e Licença de uso
 
