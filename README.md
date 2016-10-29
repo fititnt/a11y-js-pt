@@ -7,6 +7,14 @@ Não há grupo de discussão sobre o tema neste momento.
 Interessados podem entrar em contato com emerson@alligo.com.br.
 
 
+* [Perguntas Frequentes](#perguntas-frequentes)
+    * [1. Para ser considerado acessível, meu site precisa funcionar mesmo sem JavaScript habilitado?](#1-para-ser-considerado-acessível-meu-site-precisa-funcionar-mesmo-sem-javascript-habilitado)
+    * [2. Como exibir conteúdo para leitores de tela e esconder dos demais?](#2-como-exibir-conteúdo-para-leitores-de-tela-e-esconder-dos-demais)
+    * [3. Como ocultar conteúdo de leitores de tela?](#3-como-ocultar-conteúdo-de-leitores-de-tela)
+    * [5. Por onde começo?](#5-por-onde-começo)
+* [Autoria e Licença de uso](#autoria-e-licença-de-uso)
+
+
 ## Perguntas Frequentes
 
 As palavras-chave "DEVE", "NÃO DEVE", "REQUER", "DEVERIA", "NÃO  DEVERIA",
@@ -43,9 +51,9 @@ Veja [CSS em ação: conteúdo invisível apenas para usuários de leitores de t
 
 ### 3. Como ocultar conteúdo de leitores de tela?
 
-PODE usar estilo CSS `display:none`.
+PODE usar estilo CSS `display:none`. Note que isto esconde também de outros agentes de usuário.
 
-PODE usar estilo CSS `visibility: hidden;`.
+PODE usar estilo CSS `visibility: hidden;`. Note que isto esconde também de outros agentes de usuário.
 
 É RECOMENDÁVEL usar atributo `aria-hidden="true"` no elemento HTML para ocultá-lo e todos os seus descendentes de leitores de tela.
 Este uso não afeta demais agentes de usuário (isto é, os que não usam leitores de tela).
