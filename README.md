@@ -12,7 +12,7 @@ mesmo sem ter experiência com leitores de tela ou conhecimentos _avançados_ de
 irá desenvolver uma aplicação mais acessível encarando essa realidade.
 E para isto, reforça padrões de código que impactam muito além de usuários cegos e ferramentas de validação de erros durante o desenvolvimento.
 
-Colabore ao fazer parte do [Grupo de Pesquisa](#grupo-de-pesquisa).
+Colabore ao fazer parte do [Grupo de Pesquisa e Desenvolvimento](#grupo-de-pesquisa-e-desenvolvimento).
 
 ---
 
@@ -21,7 +21,7 @@ Colabore ao fazer parte do [Grupo de Pesquisa](#grupo-de-pesquisa).
     * [2. Como exibir conteúdo para leitores de tela e esconder dos demais?](#2-como-exibir-conteúdo-para-leitores-de-tela-e-esconder-dos-demais)
     * [3. Como ocultar conteúdo de leitores de tela?](#3-como-ocultar-conteúdo-de-leitores-de-tela)
     * [5. Por onde começo?](#5-por-onde-começo)
-* [Grupo de Pesquisa](#grupo-de-pesquisa)
+* [Grupo de Pesquisa e Desenvolvimento](#grupo-de-pesquisa-e-desenvolvimento)
 * [Autoria e Licença de uso](#autoria-e-licença-de-uso)
 
 
@@ -71,6 +71,14 @@ Não há indícios de que isso afete intexação de mecanismos de busca.
 
 ### 4. Acessibilidade de Ícones
 
+O uso de ícones com fins não meramente estéticos DEVE levar em consideração usuários de teclado.
+**Caso não sejam meramente visuais**, e possuírem funcionalidade, devem permitir navegação por <kbd>Tab</kbd>.
+Usar bons padrões de código para elementos que possúem comportamento distinto uso de tags como `<a>` ou `<button>` evita reescrita mais tarde e maior chance de erro com uso de elementos menos semânticos como `<div>` ou `<span>` que requerem atributos ARIA.
+
+Para acessibilidade com leitores de tela, consulte o manual do framework CSS que você usa para recomendações específicas.
+
+No futuro este guia rápido deve ter mais informações a respeito.
+
 ### 5. Por onde começo?
 Os seguintes materiais de alta qualidade, que foram revisados por grupos especializados no tema estão disponíveis em português:
 
@@ -79,11 +87,15 @@ Os seguintes materiais de alta qualidade, que foram revisados por grupos especia
 
 Outros materiais devem ser publicados em breve.
 
-## Grupo de Pesquisa
+## Grupo de Pesquisa e Desenvolvimento
 
-Não há grupo de discussão sobre o tema neste momento.
+Temos um pequeno grupo independente de pesquisa e desenvolvimento.
+É focado nas implicações de acessibilidade no uso de aplicações HTML de uso intenso de JavaScript,
+como com uso de [AngularJS](https://angular.io/) e [ReactJS](https://facebook.github.io/react/).
+É coordenador por [Emerson Rocha](https://github.com/fititnt),
+via [WebIWG](https://github.com/webiwg), em parceria com a [WebSchool.io](https://github.com/Webschool-io).
 
-Interessados podem entrar em contato com emerson@alligo.com.br.
+Entre em contato com emerson@alligo.com.br para saber mais a respeito.
 
 ## Autoria e Licença de uso
 
