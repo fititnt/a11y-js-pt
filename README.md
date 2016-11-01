@@ -1,7 +1,7 @@
 # Acessibilidade Web e JavaScript - Português
 
 Este repositório contém informações exclusivamente em português sobre acessibilidade com foco para autores de HTML com uso intenso de JavaScript.
-Se destinam a aplicações acessadas em navegadores e deveriam, sem garantias, também se aplicar para uso de HTML em aplicatívos híbridos.
+Se destinam a aplicações acessadas em navegadores e deveriam, sem garantias, também se aplicar para uso de HTML em [aplicatívos híbridos](http://startupi.com.br/2016/02/entenda-as-diferencas-entre-aplicativos-hibridos-e-nativos/).
 
 Em um mundo ideal, todos deveriam testar seus softwares com leitores de tela.
 Esse mundo não é uma realidade.
@@ -12,7 +12,7 @@ mesmo sem ter experiência com leitores de tela ou conhecimentos _avançados_ de
 irá desenvolver uma aplicação mais acessível encarando essa realidade.
 E para isto, reforça padrões de código que impactam muito além de usuários cegos e ferramentas de validação de erros durante o desenvolvimento.
 
-Colabore ao fazer parte do [Grupo de Pesquisa e Desenvolvimento](#grupo-de-pesquisa-e-desenvolvimento).
+Interessados podem fazer parte do [Grupo de Pesquisa e Desenvolvimento](#grupo-de-pesquisa-e-desenvolvimento).
 
 ---
 
@@ -92,8 +92,12 @@ Outros materiais devem ser publicados em breve.
 Temos um pequeno grupo independente de pesquisa e desenvolvimento.
 É focado nas implicações de acessibilidade no uso de aplicações HTML de uso intenso de JavaScript,
 como com uso de [AngularJS](https://angular.io/) e [ReactJS](https://facebook.github.io/react/).
-É coordenador por [Emerson Rocha](https://github.com/fititnt),
-via [WebIWG](https://github.com/webiwg), em parceria com a [WebSchool.io](https://github.com/Webschool-io).
+
+A coordenação geral é feita por por [Emerson Rocha](https://github.com/fititnt) via [WebIWG](https://github.com/webiwg),
+que é um grupo de trabalho que tem foco em boas práticas de desenvolvimento.
+
+Esse grupo de P&D também é viável através da parceria ativa com a [WebSchool.io](https://github.com/Webschool-io),
+organização que produz **grande** quantidade de material usando JavaScript.
 
 Entre em contato com emerson@alligo.com.br para saber mais a respeito.
 
